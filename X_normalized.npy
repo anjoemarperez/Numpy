@@ -1,0 +1,5 @@
+import numpy as np
+X = np.random.random((5,5))
+mean = X.mean()
+std = X.std()
+normalized = (X - mean)/std
